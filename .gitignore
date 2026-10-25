@@ -1,0 +1,24 @@
+# Environment variables - NEVER commit these
+.env
+.env.*
+.env.local
+.env.*.local
+
+# Keep example env file if you create one
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
